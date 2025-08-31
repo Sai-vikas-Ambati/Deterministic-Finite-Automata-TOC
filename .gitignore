@@ -1,0 +1,4 @@
+cat > .gitignore << 'GI'
+__pycache__/
+*.pyc
+GI
