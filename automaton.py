@@ -8,7 +8,7 @@ def dijkstra(graph, start, end):
     distances[start] = 0
     costs[start] = 0
     shortest_path = []
-
+#dijkstra algorithm to find the shortest path
     while queue:
         current_distance, current_vertex, current_cost, path = heapq.heappop(queue)
 
