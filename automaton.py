@@ -26,7 +26,7 @@ def dijkstra(graph, start, end):
                 distances[neighbor] = distance
                 costs[neighbor] = total_cost
                 heapq.heappush(queue, (distance, neighbor, total_cost, path + [(current_vertex, neighbor, flight_number)]))
-                shortest_path = path + [(current_vertex, neighbor, flight_number)]
+                shortest_path = path + [(current_vertex, neighbor, flight_number )]
 
     return float('infinity'), float('infinity'), []
 
